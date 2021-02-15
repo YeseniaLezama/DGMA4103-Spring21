@@ -1,0 +1,541 @@
+<h1>Hello, world!</h1>
+
+<br>
+<html>
+<head>
+Document Summary
+<html> … </html>
+The tag shows up at the beginning and end of an HTML document (known as the root element). It
+indicates that the webpage is written in HTML5, and all other page markup comes in between these
+beginning and ending tags.
+<head> … </head>
+The contains information that specific page, including the title tags, meta data, and links to scripts
+and style sheets.
+<title> … </title>
+The title tag is the title for that page, useful for both search engines (when they scan and index
+pages) and users (showing up up in a browser’s title bar) by explicitly stating the primary topic of
+each page.
+<body> … </body>
+Body tags include all content that will be shown to users, including everything they’ll see & read.
+Example
+<html>
+ <head>
+ <title>My Beautiful Website</title>
+ </head>
+ <body>
+
+ </body>
+</html>
+
+
+Document Information
+<base/>
+The Base URL (for example: www.YourSite.com) is useful for specifying all relative links in a
+document (especially if you have many internal links).
+<meta/>
+Meta data spells out additional information about the page, including the page’s description,
+author, published date, keywords and other typically ‘hidden’ page information.
+<link/>
+Can be used to a create relationships with external pages or documents, including style sheets.
+<style> … </style>
+This element includes document style information, typically defaulting to CSS.
+<script> … </script>
+This element includes all scripting information, or links to external scripts. You can also include this
+element in the body to dynamically generate content.
+Example
+<html>
+ <head>
+
+ <meta charset="utf-8">
+ <base href="http://mybeautifulwebsite.com" target="_blank" />
+ <title>My Beautiful Website</title>
+ <link rel="stylesheet" href="/css/master.css">
+ <script type="text/javascript">
+ var MyVar = 0;
+ </script>
+ </head>
+ <body>
+
+ </body>
+</html>
+
+
+Document Structure
+<h1..h6> … </h1..h6>
+All six levels of Headings, with 1 being the most important on a page and 6 being the least. These
+elements are used to describe content sections on a page.
+<div> … </div>
+A generic container used to denote a page section or block.
+<span> … </span>
+An inline section or block container, typically used for grouping styling elements.
+<p> … </p>
+This foundational tag is used to organize paragraphs of text.
+<br/>
+Creates a line break (or old-school carriage-return), useful for writing blocks of text that need to be
+on different lines (think addresses, etc.)
+<hr/>
+Creates a horizontal rule, a sectional break in an HTML page. Typically used to denote a change in
+topic or section of a page.
+Example
+<div>
+ <h1>Ways to make your cat happy</h1>
+ <p>You have a <span>mini-lion</span> at home and you want to make
+it as happy as possible.</p>
+ <hr/>
+ <h2>Feed your cat well.</h2>
+ <p>The right diet is <span>extremely</span> important for the
+wellbeing of your cat.<br/> Obesity is a common source of problems
+among domesticated animals.</p>
+</div>
+
+
+Text (+ Formatting)
+<strong> … </strong>
+Exactly like it sounds, indicating STRONG emphasis, displayed bold in most browsers.
+<b> … </b>
+Another way to create bold text, however it’s more for drawing attention as opposed to
+emphasizing extra emphasis like the previous tag.
+<em> … </em>
+The emphasis tags also are like they sound, emphasizing text or phrases displayed as italics in most
+browsers.
+<i> … </i>
+Another way to add italics to text, however without the added emphasis (similar to the bold tags
+above) and instead used to denote things like thoughts or names.
+<tt> … </tt>
+An older tag used to display fixed-width, typewriter-esque text. No longer supported in HTML5.
+<strike> … </strike>
+This tag creates strike through text (or text with a line through it). Another older tag not commonly
+supported.
+<cite> … </cite>
+Tags used to cite or reference information, useful for quotes and statements in a document.
+<pre> … </pre>
+Pre-formatted, ‘monospace’ text laid out with whitespace inside the element intact.
+<del> … </del>
+Helps denote a previously deleted section of text.
+<ins> … </ins>
+Represents a section of text that’s been inserted into the document.
+<blockquote> … </blockquote>
+Reserved for long paragraphs of quotations, often cited.
+<q> … </q>
+These are used for shorter quotations.
+<abbr> … </abbr>
+Abbreviation These help denote abbreviations, while also making the full form available.
+<acronym> … </acronym>
+Acronym text Similar to the previous abbreviation tag, but this time with acronyms. Not support in
+HTML5.
+<address> … </address>
+A helpfully obvious tag that displays the author’s contact information.
+<dfn> … </dfn>
+Definition Used to create an inline definition in the body text.
+<code> … </code>
+Code text Displays code snippets (like the one over to the left), typically showing up monospaced.
+<font> … </font>
+Font tag Old-school way to colour fonts. No longer part of HTML5.
+<sub> … </sub>
+Subscript text A helpful way to subscript text (shrinking it and placing it a half line lower than the
+previous text).
+<sup> … </sup>
+Superscript text Similar to the previous subscript, however this time placing it a half line higher than
+the previous text.
+<small> … </small>
+Small size text Historically used to simply reduce text size, in HTML5 it also refers to information that
+may no longer be valid, accurate or relevant.
+<bdo> … </bdo>
+The bi-directional override tag will identify which should text should be read opposite from the
+preceeding text.
+Example
+<p><strong>Keep your cat healthy.</strong> Felines can catch a
+<em>variety of illnesses</em> outside and inside the house. It is
+important to bring your cat to the veterinarian at least
+<strike>one</strike> two times a year for a check-up.</p>
+<blockquote>
+ Your cat should be neutered to prevent unwanted babies and lower
+the risks of feline HIV.
+ <cite>- Dr. Tac Nam. Cat Professor</cite>
+</blockquote>
+<pre>
+ This is a preformatted text which is a block type element.
+</pre>
+<p>While this line has a <code>code tag</code> in it, codes that can
+be embedded inline.</p>
+
+
+Links (+ Formatting)
+<a href=””> … </a>
+Anchor text for hyperlink.
+<a href=”mailto:”> … </a>
+A link used to pull up an outgoing message to a specific email addresses.
+<a href=”tel://###-###”> … </a>
+A link to make phone numbers clickable, especially useful for mobile users.
+<a name=”name”> … </a>
+An anchor that’s useful for bringing users to specific document elements.
+<a href=”#name”> … </a>
+An anchor link that brings users specifically to a div element.
+
+
+Images (+ Formatting)
+<img />
+An image tag to include and display image files.
+src=”url”
+Exactly like it sounds. The URL or file of the image to display.
+alt=”text”
+Alternative text that helps explain the image content to both search engines and users.
+height=””
+The ability to specify image height in pixels or percentages.
+width=””
+The ability to specify width in pixels or percentages.
+align=””
+The alignment of the image (relative to other text elements on the page).
+border=””
+Explains the border thickness (if any).
+vspace=””
+Denote spacing on top or the bottom of image.
+hspace=””
+Denote spacing on top or the bottom of image.
+<map> … </map>
+Helps you tell users that this is an interactive image with clickable areas.
+<map name=””> … </map>
+Name of the map associated between the image and the map.
+<area />
+Specify the area of image map.
+Example
+10 of 23
+<img src="planets.gif" width="145" height="126" alt="Planets"
+usemap="#planetmap">
+<map name="planetmap">
+ <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+ <area shape="circle" coords="90,58,3" href="mercur.htm"
+alt="Mercury">
+ <area shape="circle" coords="124,58,8" href="venus.htm"
+alt="Venus">
+</map>
+
+
+Lists (+ formatting)
+<ol> … </ol>
+Create numbered (ordered) lists showing sequential order, preference or priority.
+<ul> … </ul>
+Display a bulleted (unordered) list without any extra emphasis on order of importance.
+<li> … </li>
+Specifies each list item to be bulleted or numbered.
+<dl> … </dl>
+Reserved specifically for list items definitions.
+<dt> … </dt>
+The definition of a single term inline with body content.
+<dd> … </dd>
+The description for the defined term.
+Example
+11 of 23
+<ol>
+ <li>January</li>
+ <li>February</li>
+ <li>March</li>
+</ol>
+<ul>
+ <li>Tomato</li>
+ <li>Lettuce</li>
+ <li>Cheese</li>
+</ul>
+<dl>
+ <dt>Coffee</dt>
+ <dd>Black hot drink</dd>
+ <dt>Milk</dt>
+ <dd>White cold drink</dd>
+</dl>
+
+
+Forms (formatting and attributes)
+<form> … </form>
+The form element creates a form, spelling out how the form will operate based on it’s attributes.
+action=”url”
+The form action URL specifies where data is to be sent when a site visitor submits the form.
+method=””
+The method attribute refers to the HTTP method (Get, Post), which dictates how to send the form
+data.
+enctype=””
+This attribute dictates how the form-data is to be enconded when submitting information back to
+the web sever (for method=”post” only).
+12 of 23
+autocomplete
+Dictates whether a form should have autocomplete on or off.
+novalidate
+Dictates whether the form should not be validated when submitted.
+accept-charsets
+Identifies the character encodings upon the form submission.
+target
+Tells where to display the form response after being submitted, generally one of the following:
+_blank, _self, _parent, _top
+<fieldset> … </fieldset>
+Identifies the group of all fields on the form.
+<label> … </label>
+A simple field label, telling the user what to enter in each field.
+<legend> … </legend>
+The form legend acts as a caption for the fieldset element.
+<input />
+The form input attribute defines the type of field information to receive from a user.
+Input type attributes
+type=””
+Specifies the field input type, typically including text, password, date-time, checkbox, password
+submit etc.
+13 of 23
+name=””
+Describes the name of the form.
+value=””
+Describes the value or input field information.
+size=””
+Specifies the input element width in characters.
+maxlength=””
+Identifies the maximum input element character numbers allowed.
+required
+Another helpfully explicit tag, making sure the <input> element is completely filled out prior to the
+user submitting the form.
+step=””
+Identifies the legal number intervals for an input field.
+width=””
+Specifies the width (in pixels) of an <input> element.
+height=””
+Dictates the height (again, in pixels) of an <input> element.
+placeholder=””
+Provides a helpful hint to the user, describing what the
+<input> element value should be.
+14 of 23
+pattern=””
+Identifies a regular expression that the <input> element gets checked against, making sure the user
+entered the correct information.
+min=””
+The minimum value allowed for each <input> element.
+max=””
+The maximum value allowed for each <input> element.
+autofocus
+Says to make sure that the <input> element comes into focus after the page loads.
+disabled
+Disables an <input> element on the form.
+<textarea> … </textarea>
+Specifies a large text input for longer messages.
+<select> … </select>
+Describes a drop-down box for user’s to select one from a variety of options.
+Select attributes
+name=””
+The name for a drop down combination box.
+size=””
+Specifies the number of available, visible options in a drop-down.
+15 of 23
+multiple
+Allows for multiple selections to be made at one time.
+required
+Requires that a value is selected before a user can submit a form.
+autofocus
+Specifies that a drop-down list automatically comes into focus after a page loads.
+<optgroup> … </optgroup>
+Specifies the entire grouping of available options.
+<option> … </option>
+Defines one of the available options in the drop-down list.
+Option attributes
+value=””
+Explains the option value available for selection.
+selected
+Defines the default selected option for users.
+<button> … </button>
+Defines the clickable button for users to submit options.
+Example
+16 of 23
+<form action="action_page.php" method="post">
+ <fieldset>
+ <legend>Personal information:</legend>
+ First name:<br>
+ <input type="text" name="firstname" value="Mickey"
+placeholder="First Name"><br>
+ Last name:<br>
+ <input type="text" name="lastname" value="Mouse"
+placeholder="Last Name"><br><br>
+ Favorite car brand:<br>
+ <select>
+ <option value="volvo">Volvo</option>
+ <option value="saab">Saab</option>
+ <option value="mercedes">Mercedes</option>
+ <option value="audi">Audi</option>
+ </select>
+ <textarea name="description"></textarea>
+ <input type="submit" value="Submit">
+ </fieldset>
+</form>
+
+
+Tables (+ Formatting)
+<table> … </table>
+The table tag identifies and contains all table related content.
+<caption> … </caption>
+The caption is a description of what the table is, and what it contains.
+<thead> … </thead>
+The table headers describe the type of information contained in each column underneath.
+<tbody> … </tbody>
+The table body contains the table’s data or information.
+17 of 23
+<tfoot> … </tfoot>
+Table footers describe all footer content.
+<tr> … </tr>
+Contains the information to be included in a single row of the table.
+<th> … </th>
+Contains the actual information or data in a single header item.
+<td> … </td>
+Contains the actual information or data in a single table cell.
+<colgroup> … </colgroup>
+Groups a single (or multiple) columns for formatting purposes.
+<col />
+Defines a single column of information inside a table.
+Example
+<table>
+ <colgroup>
+ <col span="2" style="background-color:#181a1f">
+ <col style="background-color:#2c323c">
+ </colgroup>
+ <tr>
+ <th>ISBN</th>
+ <th>Title</th>
+ <th>Price</th>
+ </tr>
+ <tr>
+ <td>3476896</td>
+ <td>My first HTML</td>
+ <td>$53</td>
+ </tr>
+ <tr>
+ <td>5869207</td>
+18 of 23
+ <td>My first CSS</td>
+ <td>$49</td>
+ </tr>
+</table>
+
+
+Objects and iFrames
+<object> … </object>
+The object tag describes an embedded file type, including audio, video, PDFs, additional pages,
+and more.
+height=””
+Describes the height of the object in pixels.
+width=””
+Describes the width of the object in pixels.
+type=””
+Describes which media type the data contains.
+usemap=””
+This is the name of a client-side image map within <object>.
+<iframe> … </iframe>
+Contains an inline frame that allows you to embed external information into an existing document.
+iFrame attributes
+name=””
+The name of the <iframe>.
+19 of 23
+src=””
+The URL source of the original document to embed inside the <iframe>.
+srcdoc=””
+This contains the actual HTML content to display inside the <iframe> on the current page.
+width=””
+Defines the width of your <iframe>.
+<param />
+Appending extra parameters help you customize the iframe content.
+<embed> … </embed>
+The embed tag acts as a container for another external application or additional plug-in.
+Embed attributes
+height=””
+Defines the height of the embedded content you’re including.
+width=””
+Similar to previous, but this time defining the width of the embedded content.
+src=””
+The source URL of the external file you’re embedding.
+type=””
+Describes the media type of embedded content to include.
+Example
+20 of 23
+<object width="400" height="400"></object>
+<iframe src="demo_iframe.htm" width="200" height="200"></iframe>
+<embed src="helloworld.swf" width="200" height=“200"></embed>
+
+
+HTML5 New Tags
+<header> … </header>
+Defines the header block for a document (or individual section).
+<footer> … </footer>
+Identifies the footer block for the document (or an individual section).
+<main> … </main>
+Describes the main content of a document.
+<article> … </article>
+Identifies an article inside a document.
+<aside> … </aside>
+Specifies content contained in a document sidebar.
+<section> … </section>
+Specifies a section block in the document.
+<details> … </details>
+Describes additional facts or information that the user can view or hide.
+<dialog> … </dialog>
+A dialog box or window.
+21 of 23
+<figcaption> … </figcaption>
+The <figure> element caption that helps describes the figure.
+<figure> … </figure>
+An independent content block featuring diagrams, photos, illustrations or more.
+<mark> … </mark>
+Displays a portion of highlighted text within the page content.
+<nav> … </nav>
+Navigation links for the user in a document.
+<menuitem> … </menuitem>
+The specific menu item that a user can raise from a popup menu.
+<meter> … </meter>
+Describes the scalar measurement within a known array.
+<progress> … </progress>
+Displays the progress of a task, usually used for progress bar.
+<rp> … </rp>
+Displays text within browsers that do not support ruby annotations.
+<rt> … </rt>
+Displays East Asian typography character details.
+<ruby> … </ruby>
+Describes a Ruby annotation for East Asian typography.
+22 of 23
+<summary> … </summary>
+Contains a visible heading for a <details> element.
+<bdi> … </bdi>
+Helps you format part of text in a different direction from other text.
+<time> … </time>
+Identifies the time and date.
+<wbr>
+A line-break within the content.
+
+
+Collective Character Objects
+&#34; &quot; Quotation Marks - “
+&#38; &amp; Ampersand - &
+&#60; &lt; Less than sign - <
+&#62; &gt; Greater than sign - >
+&#160; &nbsp; Non-breaking space
+&#169; &copy; Copyright symbol - ©
+&#64; &Uuml; @ Symbol - @
+&#149; &ouml; Small bullet - •
+&#153; &ucirc; Trademark symbol - ™
+
+
+<h2>Testing Lists:</h2>
+<p>There are three types of lists in HTML: unordered (bullet lists), ordered (numbered lists), and description lists.</p>
+
+<h3>Testing Unordered Lists:</h3>
+<ul>
+<li>This</li>
+<li>is</li>
+<li>an</li>
+<li>unordered</li>
+<li>list.</li>
+</ul>
+
+<h3>Testing Ordered Lists:</h3>
+<ol>
+  <li>This</li>
+  <li>is</li>
+  <li>an</li>
+  <li>ordered</li>
+  <li>list.</li>
+</ol>
+
+
+      a href="grocery.html"><img src="images/bread.jpg"
+alt="Loaf of white bread"></a>
+<body>
+  <html>
