@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Document Structure</title>
+  </head>
+
+  <body>
+  <header>
+  <h1>Main Title of Your Website</h1>
+  <p>One Line About Your Site Here</p>
+
+<hr>
+<nav>
+<a href="index.html">Home</a>
+<a href="headings.html" target="_blank">HTML Headings</a>
+<a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">Semantinc and Non-Semantic Elements</a>
+<a href="https://www.w3schools.com/html/html_layout.asp" target="_blank">Structure and Layout Elements</a>
+<a href="task.html" target="_blank">Today's Task</a>
+
+</nav>
+</hr>
+
+  </header>
+
+
+  <main>
+
+<article>
+  <header>
+<h2>Title of Article</h2>
+<p>Some Intro to the Article's Content</p>
+</header>
+<section>
+<h3> Title of Section 1 </h3>
+<p> njvhvhwhowhnvlenfhvohwnkcfnwepojcfpnvjnvnwHFCJVVPJ </p>
+</section>
+<section>
+  <h3> Title of Section 2 </h3>
+  <p> jhndoihpnvhwnovnlknfcpiewhfcwnofohoivnwoihfwinvknfv </p>
+</section>
+</article>
+<section>
+<header>
+<h2> Title of Subsection 2.1 </h2>
+<p> jncjdwhnvonehfvjnowbvjncuhw bdbcrhciwbjclwkbcviwcwb ckwbcwch </P>
+
+</header>
+</section>
+
+</main>
+<footer>
+  
+</footer>
+
+</body>
+</html>
