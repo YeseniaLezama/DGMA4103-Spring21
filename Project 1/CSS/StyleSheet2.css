@@ -1,0 +1,19 @@
+header{
+  text-align: center;
+  color: DarkRed;
+  border: 2px solid Crimson;
+  background-color: LightPink;
+}
+footer{
+  text-align: center;
+  color: DarkRed;
+  border: 2px solid Crimson;
+  background-color: LightPink;
+}
+*{
+  font-family: Tahoma;
+  background-color: LightCoral;
+}
+a{
+  color: DarkRed;
+}
