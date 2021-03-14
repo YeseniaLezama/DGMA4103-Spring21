@@ -3,17 +3,20 @@ header{
   color: DarkRed;
   border: 2px solid Crimson;
   background-color: LightPink;
+  font-family: "Times New Roman", Times, serif;
 }
 footer{
   text-align: center;
   color: DarkRed;
   border: 2px solid Crimson;
   background-color: LightPink;
+  font-family: "Times New Roman", Times, serif;
 }
 *{
-  font-family: Tahoma;
+  font-family: "Times New Roman", Times, serif;
   background-color: LightCoral;
 }
 a{
   color: DarkRed;
+  font-family: "Times New Roman", Times, serif;
 }
