@@ -1,0 +1,19 @@
+header{
+  text-align: center;
+  color: IndianRed;
+  border: 2px solid MediumVioletRed;
+  background-color: Plum;
+}
+footer{
+  text-align: center;
+  color: IndianRed;
+  border: 2px solid MediumVioletRed;
+  background-color: Plum;
+}
+*{
+  font-family: Tahoma;
+  background-color: Orchid;
+}
+a{
+  color: IndianRed;
+}
