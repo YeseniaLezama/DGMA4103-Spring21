@@ -3,8 +3,10 @@ header{
   color: IndianRed;
   border: 2px solid MediumVioletRed;
   background-color: Plum;
-  font-weight: 900;
+}
+h1{
   text-decoration: underline;
+  font-weight: 900;
 }
 footer{
   text-align: center;
@@ -15,8 +17,8 @@ footer{
 }
 *{
   font-family: Tahoma;
-  background-color: Orchid;
-   background-image: url("https://www.google.com/search?q=naruto+backgrounds&safe=strict&rlz=1C1CHBF_enUS909US909&source=lnms&tbm=isch&biw=1280&bih=610#imgrc=i2KhKivvSDhInM"); 
+  
+   background-image: url("https://www.google.com/search?q=naruto+backgrounds&safe=strict&rlz=1C1CHBF_enUS909US909&source=lnms&tbm=isch&biw=1280&bih=610#imgrc=i2KhKivvSDhInM");
 }
 a{
   color: IndianRed;
