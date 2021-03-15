@@ -28,4 +28,7 @@ footer{
 a{
   color: DarkRed;
   font-family: "Times New Roman", Times, serif;
+  border: 2px solid Crimson;
+  border-width: medium;
+  border-color: Brown;
 }

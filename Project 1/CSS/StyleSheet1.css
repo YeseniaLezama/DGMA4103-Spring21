@@ -25,4 +25,7 @@ footer{
 }
 a{
   color: MediumTurquoise;
+  border: 2px solid MediumSlateBlue;
+  border-width: medium;
+  border-color: Indigo;
 }
