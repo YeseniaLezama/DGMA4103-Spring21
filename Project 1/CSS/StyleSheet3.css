@@ -3,16 +3,20 @@ header{
   color: IndianRed;
   border: 2px solid MediumVioletRed;
   background-color: Plum;
+  font-weight: 900;
+  text-decoration: underline;
 }
 footer{
   text-align: center;
   color: IndianRed;
   border: 2px solid MediumVioletRed;
   background-color: Plum;
+  font-style: italic;
 }
 *{
   font-family: Tahoma;
   background-color: Orchid;
+   background-image: url("https://www.google.com/search?q=naruto+backgrounds&safe=strict&rlz=1C1CHBF_enUS909US909&source=lnms&tbm=isch&biw=1280&bih=610#imgrc=i2KhKivvSDhInM"); 
 }
 a{
   color: IndianRed;
